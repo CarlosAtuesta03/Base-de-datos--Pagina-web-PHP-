@@ -1,0 +1,18 @@
+
+
+
+
+Crear tablas
+
+CREATE TABLE productos ( ID INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(255),precio integer,descripcion VARCHAR(255), imagen VARCHAR(1000));
+
+CREATE TABLE usuarios ( ID INT AUTO_INCREMENT PRIMARY KEY, usuario VARCHAR(255),contraseña VARCHAR(255));
+
+
+
+
+Insertar datos
+
+INSERT INTO productos VALUES (null,'Acer',1500000,'Intel core i5, 8 de ram, 512 gb SSD','Imagen.jpg');
+
+INSERT INTO usuarios VALUES (null,'carlos','carlos03');
